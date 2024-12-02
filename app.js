@@ -27,17 +27,22 @@ const resetGame = () => {
 
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
+    console.log =("box was clicked")
     if (turnO) {
       //playerO
       box.innerText = "O";
+      box.style.color="green"
       turnO = false;
-    } else {
+    }
+    else {
       //playerX
       box.innerText = "X";
+      box.style.color="blue"
       turnO = true;
     }
     box.disabled = true;
     count++;
+    
 
     let isWinner = checkWinner();
 
