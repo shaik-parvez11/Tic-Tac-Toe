@@ -26,7 +26,7 @@ body {
   gap: 1.5vmin;
 }
 
-.box{
+.box {
   height: 18vmin;
   width: 18vmin;
   border-radius: 1rem;
@@ -36,7 +36,6 @@ body {
   color: #b0413e;
   background-color: #ffffc7;
 }
-
 
 #reset-btn {
   padding: 1rem;
